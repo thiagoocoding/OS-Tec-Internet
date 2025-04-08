@@ -1,0 +1,16 @@
+// Define a interface dos atendimentos retornados pela API
+export interface Atendimento {
+    numero_os: string;
+    dt_agendamento: string;
+    dt_fechamento?: string;
+    descricao: string;
+    nome: string;
+    endereco: string;
+    bairro: string;
+    cidade: string;
+    celular: string;
+    telefone: string;
+    id: number;
+    desc_funcionario?: string;
+  }
+  
